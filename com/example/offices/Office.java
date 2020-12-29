@@ -5,7 +5,9 @@
  * @version 1.0
  */
 
-package classes;
+package com.example.offices;
+
+import com.example.cabinets.Cabinet;
 
 import java.util.ArrayList;
 

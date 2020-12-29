@@ -4,7 +4,7 @@
  * @version 1.0
  */
 
-package abstracts;
+package com.example.devices;
 
 public abstract class Device {
     /** Текущее состояние устройства */

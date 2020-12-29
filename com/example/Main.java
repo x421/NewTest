@@ -1,9 +1,9 @@
-package main;
+package com.example;
 
-import classes.Cabinet;
-import classes.Employee;
-import classes.Office;
-import classes.Scanner;
+import com.example.cabinets.Cabinet;
+import com.example.employees.Employee;
+import com.example.offices.Office;
+import com.example.devices.Scanner;
 
 /**
  * Класс с методом main

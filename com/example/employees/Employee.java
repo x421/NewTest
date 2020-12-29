@@ -4,7 +4,7 @@
  * @version 1.0
  */
 
-package classes;
+package com.example.employees;
 
 public class Employee {
     /** ФИО сотрудника */

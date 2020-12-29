@@ -4,9 +4,9 @@
  * @version 1.0
  */
 
-package classes;
+package com.example.devices;
 
-import abstracts.Device;
+import com.example.devices.Device;
 
 public class Combine extends Device {
     public Combine(String name, String id) {

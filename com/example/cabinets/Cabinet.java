@@ -5,9 +5,10 @@
  * @version 1.0
  */
 
-package classes;
+package com.example.cabinets;
 
-import abstracts.Device;
+import com.example.employees.Employee;
+import com.example.devices.Device;
 
 import java.util.ArrayList;
 
