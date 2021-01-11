@@ -10,10 +10,11 @@ package com.example.offices;
 import com.example.cabinets.Cabinet;
 
 import java.util.ArrayList;
+import java.util.List;
 
 public class Office {
     /** Список всех кабинетов офиса */
-    private ArrayList<Cabinet> officeCabinets;
+    private List<Cabinet> officeCabinets;
 
     public Office() {
         officeCabinets = new ArrayList<Cabinet>();
