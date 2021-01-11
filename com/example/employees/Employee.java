@@ -19,8 +19,8 @@ public class Employee {
      * @param personName ФИО сотрудника
      */
     public Employee(String personID, String personName) {
-        employeeName            = personID;
-        this.employeeUniqueID   = personName;
+        employeeName = personID;
+        employeeUniqueID = personName;
     }
 
     /** Печать информации о сотруднике на экран */

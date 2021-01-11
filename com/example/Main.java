@@ -17,7 +17,7 @@ public class Main {
     public static void main(String[] args) {
 	    Office office = new Office();
 
-	    Cabinet cabinet314 = new Cabinet("314");
+		Cabinet cabinet314 = new Cabinet("314");
 
 		cabinet314.setDevice(new Scanner("Printer1", "1111"));
 

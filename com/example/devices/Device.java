@@ -31,8 +31,8 @@ public abstract class Device {
      * @param id Уникальный идентификатор устройства
      */
     public Device(String name, String id) {
-        deviceUniqueID      = id;
-        deviceName          = name;
+        deviceUniqueID = id;
+        deviceName = name;
         deviceCurrentStatus = DeviceStatus.OFF;
     }
 

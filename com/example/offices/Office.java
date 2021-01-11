@@ -29,8 +29,6 @@ public class Office {
 
     /** Печать информации об оффисе на экран */
     public void printOfficeInfo() {
-        for(int end = officeCabinets.size(), i = 0; i < end; i++) {
-            officeCabinets.get(i).printCabinetInfo();
-        }
+        officeCabinets.forEach(cab -> { cab.printCabinetInfo(); });
     }
 }

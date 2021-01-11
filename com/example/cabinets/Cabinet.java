@@ -11,13 +11,14 @@ import com.example.employees.Employee;
 import com.example.devices.Device;
 
 import java.util.ArrayList;
+import java.util.List;
 
 public class Cabinet {
     /** Устройство кабинета */
     private Device cabinetDevice;
 
     /** Список сотрудников кабинета */
-    private ArrayList<Employee> employeeList;
+    private List<Employee> employeeList;
 
     /** Уникальный ИД кабинета */
     private String cabinetUniqueID;
@@ -28,7 +29,7 @@ public class Cabinet {
      */
     public Cabinet(String cabinetID) {
         cabinetUniqueID = cabinetID;
-        employeeList    = new ArrayList<>();
+        employeeList = new ArrayList<>();
     }
 
     /**
@@ -52,11 +53,13 @@ public class Cabinet {
         System.out.println("Cabinet id: " + cabinetUniqueID +
                 ".\nEmployee list: ");
 
-        for(int end = employeeList.size(), i = 0; i < end; i++) {
-            employeeList.get(i).printEmployeeInfo();
-        }
+        employeeList.forEach(emp -> { emp.printEmployeeInfo(); });
 
-        cabinetDevice.printDeviceInfo();
+        try {
+            cabinetDevice.printDeviceInfo();
+        } catch (NullPointerException e){
+            System.out.println("No device in cabinet!");
+        }
     }
 
 }
