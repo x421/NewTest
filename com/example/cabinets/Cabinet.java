@@ -18,10 +18,10 @@ public class Cabinet {
     private Device cabinetDevice;
 
     /** Список сотрудников кабинета */
-    private List<Employee> employeeList;
+    final private List<Employee> employeeList;
 
     /** Уникальный ИД кабинета */
-    private String cabinetUniqueID;
+    final private String cabinetUniqueID;
 
     /**
      * @implNote Неплохо бы иметь проверку уникальности

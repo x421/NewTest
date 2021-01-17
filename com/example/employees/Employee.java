@@ -8,10 +8,10 @@ package com.example.employees;
 
 public class Employee {
     /** ФИО сотрудника */
-    private String employeeName;
+    final private String employeeName;
 
     /** Уникальный ИД сотрудника */
-    private String employeeUniqueID;
+    final private String employeeUniqueID;
 
     /**
      * @implNote Неплохо бы иметь проверку уникальности

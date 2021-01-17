@@ -11,10 +11,10 @@ public abstract class Device {
     protected DeviceStatus deviceCurrentStatus;
 
     /** Наименование устройства */
-    protected String deviceName;
+    final protected String deviceName;
 
     /** Уникальный ИД устройства */
-    protected String deviceUniqueID;
+    final protected String deviceUniqueID;
 
     /**
      * Набор возможных статусов устройства

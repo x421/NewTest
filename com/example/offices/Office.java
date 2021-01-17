@@ -14,7 +14,7 @@ import java.util.List;
 
 public class Office {
     /** Список всех кабинетов офиса */
-    private List<Cabinet> officeCabinets;
+    final private List<Cabinet> officeCabinets;
 
     public Office() {
         officeCabinets = new ArrayList<Cabinet>();
